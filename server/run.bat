@@ -1,2 +1,2 @@
 @echo off
-.\build\Release\hianime-drp.exe
+.\build\Release\jango-drp.exe

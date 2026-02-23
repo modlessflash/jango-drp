@@ -1,4 +1,5 @@
 # jango discord rich presence
+<img width="291" height="118" alt="Discord_i1ymKMyhT3" src="https://github.com/user-attachments/assets/38332b38-f98d-4a00-9cbe-bfb32cfd6f0d" />
 
 this readme is pretty much for myself
 

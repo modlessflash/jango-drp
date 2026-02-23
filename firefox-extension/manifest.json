@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "jango-drp",
+  "version": "0.0.1",
+  "description": "a peculiar extension",
+  "homepage_url": "https://github.com/modlessflash/jango-drp",
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.jango.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{bdd53303-dbec-45f7-a00f-88b4a382474c}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
